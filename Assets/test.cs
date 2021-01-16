@@ -34,12 +34,9 @@ public class test : MonoBehaviour
 
         lastboss.Attack();
 
-       for(int i = 53; i > 3; i--){
+       for(int i = 0; i < 11; i++)
+        {
             lastboss.Magic();
-            if (i == 44)
-            {
-                break;
-            }
         }
 
         lastboss.Defence(3);
